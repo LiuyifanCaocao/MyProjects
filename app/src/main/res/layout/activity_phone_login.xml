@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.jredu.myprojects.activity.PhoneLoginActivity">
+
+    <ImageView
+        android:id="@+id/phone_login_back"
+        android:layout_width="26dp"
+        android:layout_height="40dp"
+        android:src="@drawable/leftback" />
+
+    <TextView
+        android:id="@+id/accounText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="账号登录"
+        android:textColor="@color/colortitle"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="邮箱/手机号"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="请输入密码"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/phone_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_login_weixin"
+        android:text="登录"
+        android:textColor="@color/colorWhite"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/phone_login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_login_weixin"
+        android:text="注册"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="忘记密码"
+        android:textColor="@color/colortitle"
+        android:textSize="12dp"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:id="@+id/inter_text"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="为了正常记录你的运动数据，\n咕咚需要你开启GPS定位动\n能。"
+        android:lines="3"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inter_ll"
+        android:orientation="horizontal"
+        android:layout_below="@+id/inter_text"
+        android:layout_margin="20dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inter_button_no"
+            android:text="否"
+            android:background="@drawable/inter_button"
+            android:gravity="center"
+            android:textColor="@color/colortitle"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inter_button_yes"
+            android:text="是"
+            android:background="@drawable/inter_button_yes"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

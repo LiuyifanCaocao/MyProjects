@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <RadioButton
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:id="@+id/reset"
+            android:layout_gravity="center_horizontal"
+            android:button="@null"
+            android:gravity="center_vertical"
+            android:paddingLeft="3dp"
+            android:drawablePadding="3dp"
+            android:drawableLeft="@drawable/add_map"
+            android:layout_margin="10dp"
+            android:text="重置记录"/>
+        <RadioButton
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:id="@+id/set_music"
+            android:layout_gravity="center_horizontal"
+            android:button="@null"
+            android:paddingLeft="3dp"
+            android:drawablePadding="3dp"
+            android:drawableLeft="@drawable/add_music"
+            android:text="播放/关闭音乐"/>
+    </RadioGroup>
+
+</LinearLayout>

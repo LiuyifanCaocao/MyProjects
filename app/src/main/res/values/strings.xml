@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyProjects</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="title">咕咚直播  运动新秀场</string>-->
+    <string-array name="gudong">
+        <item>咕咚直播</item>
+        <item>咕咚一下</item>
+        <item>联系人</item>
+        <item>DNF</item>
+    </string-array>
+</resources>
